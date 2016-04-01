@@ -1,4 +1,6 @@
+
 <h1>These are the Articles</h1>
+<% if logged_in? %>
 <p><%= @article.title %></p>
 <p>
 	Tags:
@@ -25,3 +27,6 @@
 
 <%= link_to 'Back to the list of articles', articles_path %>
 <%= link_to 'Show all tags', tags_path %>
+<% else %>
+<h3>You are not logged in.  Please login in below.</h3>
+<% end %>
