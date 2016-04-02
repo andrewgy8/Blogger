@@ -10,6 +10,7 @@ The CSS was also provided by JumpStart.
 
 * Rails Version =  4.2.5.1
 
+Deployed on Heroku at https://strawberry-cake-73329.herokuapp.com/
 
 
 
